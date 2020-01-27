@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="551ddec9-7f41-40fe-978d-5fd84a6f37dc" data-root-id="4743"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="4846">
+          {"72592427-deb2-42c3-beb4-b46c6acd3c19":{"roots":{"references":[{"attributes":{},"id":"4777","type":"BasicTickFormatter"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"4760","type":"BasicTicker"}},"id":"4763","type":"Grid"},{"attributes":{"label":{"field":"sector"},"renderers":[{"id":"4773","type":"GlyphRenderer"}]},"id":"4781","type":"LegendItem"},{"attributes":{"items":[{"id":"4781","type":"LegendItem"}]},"id":"4780","type":"Legend"},{"attributes":{},"id":"4760","type":"BasicTicker"},{"attributes":{"callback":null,"start":-0.5},"id":"4746","type":"Range1d"},{"attributes":{"axis_label":null,"formatter":{"id":"4777","type":"BasicTickFormatter"},"ticker":{"id":"4760","type":"BasicTicker"},"visible":false},"id":"4759","type":"LinearAxis"},{"attributes":{"text":"IDA"},"id":"4744","type":"Title"},{"attributes":{},"id":"4789","type":"UnionRenderers"},{"attributes":{"grid_line_color":null,"ticker":{"id":"4755","type":"BasicTicker"}},"id":"4758","type":"Grid"},{"attributes":{"data_source":{"id":"4769","type":"ColumnDataSource"},"glyph":{"id":"4771","type":"Wedge"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"4772","type":"Wedge"},"selection_glyph":null,"view":{"id":"4774","type":"CDSView"}},"id":"4773","type":"GlyphRenderer"},{"attributes":{"field":"angle","include_zero":true},"id":"4767","type":"CumSum"},{"attributes":{},"id":"4755","type":"BasicTicker"},{"attributes":{"end_angle":{"expr":{"id":"4768","type":"CumSum"},"units":"rad"},"fill_color":{"field":"color"},"line_color":{"value":"white"},"radius":{"units":"data","value":0.45},"start_angle":{"expr":{"id":"4767","type":"CumSum"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"4771","type":"Wedge"},{"attributes":{"callback":null},"id":"4748","type":"DataRange1d"},{"attributes":{"callback":null,"data":{"angle":{"__ndarray__":"xJzOa3rv/D/ezhXQTpD6P/kCvMfZGOg/pqzSL5EQ4D/Fni3/MNfcP4nR6ensb9o/7u4FBrgLyT+e+VVtMIrIP04EptSoCMg/BHTtYU/dvj8=","dtype":"float64","shape":[10]},"color":["#3182bd","#6baed6","#9ecae1","#c6dbef","#e6550d","#fd8d3c","#fdae6b","#fdd0a2","#31a354","#74c476"],"index":[0,1,2,3,4,5,6,7,8,9],"sector":["THEFT","BURGLARY OF VEHICLE","THEFT BY SHOPLIFTING","BURGLARY OF RESIDENCE","AUTO THEFT","BURGLARY NON RESIDENCE","THEFT OF BICYCLE","AGG ROBBERY/DEADLY WEAPON","AGG ASSAULT","AGG ASLT STRANGLE/SUFFOCATE"],"value":[915,840,381,254,228,209,99,97,95,61]},"selected":{"id":"4788","type":"Selection"},"selection_policy":{"id":"4789","type":"UnionRenderers"}},"id":"4769","type":"ColumnDataSource"},{"attributes":{"callback":null,"tooltips":"@sector: @value"},"id":"4764","type":"HoverTool"},{"attributes":{},"id":"4750","type":"LinearScale"},{"attributes":{"source":{"id":"4769","type":"ColumnDataSource"}},"id":"4774","type":"CDSView"},{"attributes":{},"id":"4788","type":"Selection"},{"attributes":{"field":"angle"},"id":"4768","type":"CumSum"},{"attributes":{"axis_label":null,"formatter":{"id":"4779","type":"BasicTickFormatter"},"ticker":{"id":"4755","type":"BasicTicker"},"visible":false},"id":"4754","type":"LinearAxis"},{"attributes":{},"id":"4779","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"4754","type":"LinearAxis"}],"center":[{"id":"4758","type":"Grid"},{"id":"4763","type":"Grid"},{"id":"4780","type":"Legend"}],"left":[{"id":"4759","type":"LinearAxis"}],"plot_height":550,"plot_width":850,"renderers":[{"id":"4773","type":"GlyphRenderer"}],"title":{"id":"4744","type":"Title"},"toolbar":{"id":"4765","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"4746","type":"Range1d"},"x_scale":{"id":"4750","type":"LinearScale"},"y_range":{"id":"4748","type":"DataRange1d"},"y_scale":{"id":"4752","type":"LinearScale"}},"id":"4743","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"4752","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4764","type":"HoverTool"}]},"id":"4765","type":"Toolbar"},{"attributes":{"end_angle":{"expr":{"id":"4768","type":"CumSum"},"units":"rad"},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"units":"data","value":0.45},"start_angle":{"expr":{"id":"4767","type":"CumSum"},"units":"rad"},"x":{"value":0},"y":{"value":1}},"id":"4772","type":"Wedge"}],"root_ids":["4743"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('4846').textContent;
+                  var render_items = [{"docid":"72592427-deb2-42c3-beb4-b46c6acd3c19","roots":{"4743":"551ddec9-7f41-40fe-978d-5fd84a6f37dc"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
